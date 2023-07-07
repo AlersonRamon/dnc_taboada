@@ -28,6 +28,7 @@ section{
     background-color: var(--brancodnc);
     color: var(--fonteescuradnc);
     width: 50%;
+    max-width: 530px;
     padding: 10px;
     border-radius: 15px;
     margin: auto;
