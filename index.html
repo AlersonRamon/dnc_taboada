@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TABOADA</title>
+    <link rel="stylesheet" href="style.css">
+    <title>TABUADA</title>
 </head>
 <body>
     <header>
-        <h1>Taboada</h1>
+        <img src="/images/logotipo_dnc_principal_branco.png" alt="logo_dnc" width="100">
+        <h1 id="title">Tabuada</h1>
     </header>
     <section>
-        <div>
-            <p></p>
+        <div id="div_info">
+            <p> Qual tabuada você deseja saber?</p>
+            <input class="input_number" type="number" id="num">
+            <p> Até que numero você quer?</p>
+            <input class="input_number"  type="number" id="upto"><br>
+            <input type="button" value="Calcular" onclick="show()">
+        </div>
+        <div id="div_response">
+            <p>Preencha os valores acima!</p>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
